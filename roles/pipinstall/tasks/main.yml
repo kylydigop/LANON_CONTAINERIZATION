@@ -1,0 +1,4 @@
+---
+- name: Install python packages using Pip
+  pip:
+    name: "{{ pippackage }}"
